@@ -6,7 +6,7 @@ def FoodData(query):
     
     api_url = f'https://api.nal.usda.gov/fdc/v1/foods/search?api_key=your_api_key_hear&query={query}'
 
-    #get api key form https://fdc.nal.usda.gov/api-key-signup hear and pest it
+    #get api key form " https://fdc.nal.usda.gov/api-key-signup " hear and pest it
     #free api by US gov to use 
 
     response = requests.get(api_url)
