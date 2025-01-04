@@ -23,9 +23,9 @@ def FoodData(query):
 
 if __name__ == "__main__": #for can be use as module in ither file if this functon need
 
-    query = input("Enter the food name:- ") #enter food detil name for search
+    query = input("Enter the food name:- ") #enter food name for search
 
-    food_info = FoodData(query)
+    food_info = FoodData(query) #calling function
 
     if food_info:  #if food_inof get data then it"s true so it enter the if statment
         file_path = f"your_file_path\\{query + " " + "info"}.json" 
