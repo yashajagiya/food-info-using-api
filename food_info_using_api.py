@@ -28,7 +28,7 @@ if __name__ == "__main__": #for can be use as module in ither file if this funct
     food_info = FoodData(query)
 
     if food_info:  #if food_inof get data then it"s true so it enter the if statment
-        file_path = f"fule_path\\{query + " " + "info"}.json" 
+        file_path = f"your_file_path\\{query + " " + "info"}.json" 
 
         if os.path.exists(file_path):  #check if file exits in the that path
             print("File already exists.")  
